@@ -1,6 +1,8 @@
 ---
 title: Shopping
 description: A guide on how to shop on the portal.
+lastUpdated: 2023-10-20
+next: false
 ---
 
 It is recommended that you see the instructions for checking stock prior to proceeding with shopping instructions.

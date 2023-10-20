@@ -1,9 +1,8 @@
 ---
 title: Stock Checks
 description: A guide on how to check stock.
+lastUpdated: 2023-10-20
 ---
-
-
 
 
 ## Global Search

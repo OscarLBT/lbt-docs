@@ -1,6 +1,7 @@
 ---
 title: LBT Portal Updates
 description: A log of changes
+lastUpdated: 2023-10-20
 ---
 
 
