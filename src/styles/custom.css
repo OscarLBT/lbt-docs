@@ -2,8 +2,26 @@
 /* src/styles/custom.css */
 :root {
   --sl-content-width: 50rem;
-  --sl-text-5xl: 3.5rem;
+  
+  	/* Text size and line height */
+	--sl-text-xs: 0.8125rem; /* 13px */
+	--sl-text-sm: 0.875rem; /* 14px */
+	--sl-text-base: 1rem; /* 16px */
+	--sl-text-lg: 1.125rem; /* 18px */
+	--sl-text-xl: 1.25rem; /* 20px */
+	--sl-text-2xl: 1.5rem; /* 24px */
+	--sl-text-3xl: 1.8125rem; /* 29px */
+	--sl-text-4xl: 2.1875rem; /* 35px */
+	--sl-text-5xl: 2.625rem; /* 42px */
+	--sl-text-6xl: 4rem; /* 64px */
 
+}
+
+:root[data-theme=light] {
+    --sl-hue-accent: 45;
+    --sl-color-accent-high: hsl(var(--sl-hue-accent), 90%, 20%);
+    --sl-color-accent: hsl(var(--sl-hue-accent), 100%, 50%);
+    --sl-color-accent-low: hsl(var(--sl-hue-accent), 98%, 80%);
 }
 
 @media (min-width: 50rem) {
