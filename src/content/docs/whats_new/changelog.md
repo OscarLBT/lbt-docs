@@ -15,12 +15,25 @@ description: A log of changes
 ## September 2023
 ### Quotes launched
 - Enabled quotes.
-- Added error pages.
+  - This allows users to work on different orders as they come through without having to finalize each one before starting the next. 
+  <img src="/docs/assets/images/quotes_details_example_02.png" alt="none" style="border: 2px solid  gray;">
 - Enabled printing of quotes and orders.
+  - Users are able to send quote printouts to clients for approval.
+- Added error pages.
+  - Error 403
+    - User does not have sufficient permissions to view resources. 
+  - Error 404
+    - Resource was not found. 
+  - Error 500
+    - A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+  - Error 503
+    - The server cannot handle the request (because it is overloaded or down for maintenance).
 
 
 ## August 2023
 - Added delete option to lot images.
+  - The only place this has been implemented is under the Lot Images page. Users cannot delete images from the Product page.
+  <img src="/docs/assets/images/image_delete_example.png" alt="none" style="border: 2px solid  gray;">
 - Added option to add notes to lot image uploads. 
 - Added <i>What's New</i> section.
 - Miscellaneous Shopping Cart improvements.

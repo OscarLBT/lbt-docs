@@ -64,7 +64,7 @@ Quotes can be accessed by expanding the Web Orders section on the left pane.
 
 After selecting a quote by clicking on <i>View quote details</i>, you can either click on <i>Submit as Order</i> to have the quote processed in GP as an order or you can click on <i>Edit</i> to update item details and add or remove items. If you wish to send a quote to your client, you can click on the <i>Print</i> button and select <i>Print to PDF</i> for the Destination option to save the print out to a PDF file.
 
-<img src="/docs/assets/images/quotes_details_example.png" alt="none" style="border: 2px solid  gray;">
+<img src="/docs/assets/images/quotes_details_example_01.png" alt="none" style="border: 2px solid  gray;">
 
 
 ## Editing Quotes
