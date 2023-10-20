@@ -6,6 +6,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Docs',
+      customCss: [
+        // Relative path to your custom CSS file
+        './src/styles/custom.css',
+      ],
 			sidebar: [
 				{
 					label: 'Start here',
@@ -37,4 +41,6 @@ export default defineConfig({
 			],
 		}),
 	],
+  site: 'https://portal.lunadabaytile.com',
+  base: '/docs',
 });

@@ -1,0 +1,15 @@
+
+/* src/styles/custom.css */
+:root {
+  --sl-content-width: 50rem;
+  --sl-text-5xl: 3.5rem;
+
+}
+
+@media (min-width: 50rem) {
+  .hero {
+    grid-template-columns: 7fr 4fr;
+    gap: 3%;
+    padding-block: clamp(2.5rem, calc(1rem + 10vmin), 1rem);
+  }
+}
