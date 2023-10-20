@@ -19,7 +19,7 @@ lastUpdated: 2023-10-20
   - This allows users to work on different orders as they come through without having to finalize each one before starting the next. 
   <img src="/docs/assets/images/quotes_details_example_02.png" alt="none" style="border: 2px solid  gray;">
 - Enabled printing of quotes and orders.
-  - Users are able to send quote printouts to clients for approval.
+  - Users are able to send printouts to clients for approval or as confirmations.
 - Added error pages.
   - Error 403
     - User does not have sufficient permissions to view resources. 
@@ -36,6 +36,7 @@ lastUpdated: 2023-10-20
   - The only place this has been implemented is under the Lot Images page. Users cannot delete images from the Product page.
   <img src="/docs/assets/images/image_delete_example.png" alt="none" style="border: 2px solid  gray;">
 - Added option to add notes to lot image uploads. 
+  <img src="/docs/assets/images/image_notes_example.png" alt="none" style="border: 2px solid  gray; max-width: 500px">
 - Added <i>What's New</i> section.
 - Miscellaneous Shopping Cart improvements.
 
@@ -69,7 +70,7 @@ Stock Check            |  Product Page
   - Users can now, if available, click on a tracking number link which takes them directly to the carrier's tracking page.
 <img src="/docs/assets/images/invoice_tracking_example.png" alt="none" style="border: 1px solid  gray;">
 - Added PA stock.
-  - Stock checks were previously limited to CA inventory only. This slowed down CSRs when they had to help east coast customers.
+  - Stock checks were previously limited to CA inventory only. This slowed down CSRs when they need to provide inventory levels to east coast customers.
 - Updated quantities to selling unit of measure.
   - There should be consistency between the units of measure used on the Portal and the pricelist.  
 - Added item specifications to product page.
@@ -96,7 +97,8 @@ Stock Check            |  Product Page
 ## March 2023
 - Product pricing.
   - Adding MSRP and pricing per pricelevel provides an alternative to flipping through a pricelist and allows for future implementation of shopping features. 
-- Enabled emails on checkout. 
+- Enabled checkout confirmation emails.
+<img src="/docs/assets/images/checkout_confirmation.png" alt="none" style="border: 1px solid  gray; max-width:550px">
 - Added illustrations. 
 <img src="/docs/assets/images/images_example.png" alt="none" style="border: 1px solid  gray; max-width:300px">
 - Enabled quantity calculations in cart.
@@ -124,13 +126,18 @@ Stock Check            |  Product Page
 <img src="/docs/assets/images/tmb_ja_dealer_locator_example.png" alt="none" style="border: 1px solid  gray; max-width:300px">
 
 ## November 2022
+### Dealer locator launched
+- Enabled dealer locator
+  - Users no longer have to go solely through GP to look for an appropriate dealer.
+<img src="/docs/assets/images/dealer_locator_example_old.png" alt="none" style="border: 1px solid  gray;">
 - Added customers to database.
 - Added customer addresses to database 
 - Added collections to database.
 - Added customer price levels.
-- Added dealer locator.
 - Added user roles.
 - Added material documentation.
+  - Product page has an expandable documentation section.
+  <img src="/docs/assets/images/documentation_example.png" alt="none" style="border: 1px solid  gray;">
 
 ## October 2022
 - Added search by item number.
@@ -140,6 +147,8 @@ Stock Check            |  Product Page
 - Improved Global Search.
 - Removed inactive series.
 - Added breadcrumb.
+  - This allows users to easily go back to a parent section. E.G., if they're on an Agate 1X1 product page, they can click on <i>1x1 Mosaic</i> or <i>Agate</i> to go back to the 1x1's page or the Agate page respectively.
+  <img src="/docs/assets/images/breadcrumb_example.png" alt="none" style="border: 1px solid  gray;">
 - Enabled product images.
 
 ### Launch
