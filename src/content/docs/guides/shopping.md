@@ -81,3 +81,5 @@ Note, once an item is selected, the input field is locked. If you wish to remove
 
 <img src="/docs/assets/images/agt_1x1_custom_example.png" alt="none" style="border: 2px solid  gray;">
 
+
+<script src="/docs/assets/scripts/custom.js"></script>

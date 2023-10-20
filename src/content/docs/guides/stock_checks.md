@@ -41,3 +41,5 @@ Additional lot info and backorder info can be seen by clicking on the info icon 
 
 <img src="/docs/assets/images/agt_1x1_amalfi_prl_stock_check.png" alt="none" style="border: 2px solid  gray;">
 
+
+<script src="/docs/assets/scripts/custom.js"></script>
