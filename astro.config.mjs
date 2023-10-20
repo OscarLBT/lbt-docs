@@ -6,10 +6,17 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Docs',
-      customCss: [
-        // Relative path to your custom CSS file
-        './src/styles/custom.css',
-      ],
+			logo: {
+				light: './src/assets/lbt_logo.png',
+				dark: './src/assets/lbt_logo_dark.png',
+			},
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+			],
+			editLink: {
+				baseUrl: 'https://github.com/OscarLBT/lbt-docs/edit/main/',
+			},
 			sidebar: [
 				{
 					label: 'Start here',
@@ -22,7 +29,8 @@ export default defineConfig({
 
 						{
 							label: 'Shopping',
-							link: '/guides/shopping'
+							link: '/guides/shopping',
+							badge: 'New',
 						},
 					],
 				},
