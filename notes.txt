@@ -1,0 +1,8 @@
+To update the logo url:
+
+update file: node_modules\@astrojs\starlight\components\SiteTitle.astro
+<a {href} class="site-title sl-flex">
+	<span class:list={{ 'sr-only': config.logo?.replacesTitle }} style="margin-left: 20px; margin-right: 50px;">
+		{config.title}
+	</span>
+</a>
