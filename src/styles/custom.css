@@ -28,7 +28,7 @@
   .hero {
     grid-template-columns: 7fr 4fr;
     gap: 3%;
-    padding-block: clamp(2.5rem, calc(1rem + 10vmin), 1rem);
+    padding-block: clamp(1rem, calc(1rem + 10vmin), 1rem);
   }
 }
 
