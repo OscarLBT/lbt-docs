@@ -13,3 +13,10 @@
     padding-block: clamp(2.5rem, calc(1rem + 10vmin), 1rem);
   }
 }
+
+ul li ul {
+  margin: 0px!important;
+}
+ul li p {
+  margin: 0px!important;
+}
