@@ -38,7 +38,7 @@ lastUpdated: 2023-10-20
   <img src="/docs/assets/images/image_delete_example.png" alt="none" style="border: 2px solid  gray;">
 - Added option to add notes to lot image uploads.
   - Users can now write lot-relevent information into a notes input box instead of editing images to display text.
-  <img src="/docs/assets/images/image_notes_example.png" alt="none" style="border: 2px solid  gray; max-width: 500px">
+  <img src="/docs/assets/images/image_notes_example.png" alt="none" style="border: 2px solid  gray; max-height: 525px; max-width: 100%;">
   <hr>
 - Added <i>What's New</i> section.
 - Miscellaneous Shopping Cart improvements.
@@ -80,8 +80,8 @@ Stock Check            |  Product Page
 
 ### Item Specs 
 - Added item specifications to product page.
-  - While mounting type, thickness, weight, etc can be looked up in a pricelist, finding that information on the Portal is more effecient.
-<img src="/docs/assets/images/specifications_example.png" alt="none" style="border: 1px solid  gray; max-width:450px">
+  - While mounting type, thickness, weight, etc can be looked up in a pricelist, finding that information on the Portal is more efficient.
+<img src="/docs/assets/images/specifications_example.png" alt="none" style="border: 1px solid  gray; max-height:250px; max-width: 100%;">
   <hr>
 - Added PA stock.
   - Stock checks were previously limited to CA inventory only. This slowed down CSRs when they need to provide inventory levels to east coast customers.
@@ -115,9 +115,9 @@ Stock Check            |  Product Page
   - Adding MSRP and pricing per pricelevel provides an alternative to flipping through a pricelist and allows for future implementation of shopping features.
   <hr> 
 - Enabled checkout confirmation emails.
-<img src="/docs/assets/images/checkout_confirmation.png" alt="none" style="border: 1px solid  gray; max-width:550px">
+<img src="/docs/assets/images/checkout_confirmation.png" alt="none" style="border: 1px solid  gray; max-height:665px; max-width: 100%;">
 - Added illustrations. 
-<img src="/docs/assets/images/images_example.png" alt="none" style="border: 1px solid  gray; max-width:300px">
+<img src="/docs/assets/images/images_example.png" alt="none" style="border: 1px solid  gray; max-height:320px; max-width: 100%;">
 - Enabled quantity calculations in cart.
   - Users can now input quantities in one of two units of measure when applicable. Amounts are corrected to match increment quantities. E.G., 3.00sf -> 3.27sf. 
 <img src="/docs/assets/images/quantity_calculation_example.png" alt="none" style="border: 1px solid  gray;">
@@ -140,7 +140,7 @@ Stock Check            |  Product Page
 ### Shopping Cart
 - Shopping Cart functionality enabled 
   - The addition of the shopping cart makes it possible for sales reps to directly enter orders.
-<img src="/docs/assets/images/shopping_cart_example_02.png" alt="none" style="border: 1px solid  gray; max-width:300px">
+<img src="/docs/assets/images/shopping_cart_example_02.png" alt="none" style="border: 1px solid  gray; max-height:340px; max-width: 100%;">
   <hr>
 - Added Google Analytics.
 
