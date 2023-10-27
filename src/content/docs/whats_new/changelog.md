@@ -179,7 +179,7 @@ Stock Check            |  Product Page
 
 ### Launch
 Initial launch
-<img src="/docs/assets/images/houston.webp" alt="none" style="max-width:300px">
+<img src="/docs/assets/images/high-five.png" style="max-width:300px">
 
 
 

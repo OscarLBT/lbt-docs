@@ -15,5 +15,5 @@
 })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 
 
-console.log('test js');
+// console.log('test js');
 
