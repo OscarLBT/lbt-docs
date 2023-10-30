@@ -23,12 +23,12 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{
-							label: 'Stock Checks',
+							label: '📑 Stock Checks',
 							link: '/guides/stock_checks'
 						},
 
 						{
-							label: 'Shopping',
+							label: '🛒 Shopping',
 							link: '/guides/shopping',
 							badge: 'New',
 						},
@@ -40,7 +40,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{
-							label: 'Changelog',
+							label: '⌚ Changelog',
 							link: '/whats_new/changelog'
 						},
 					],
