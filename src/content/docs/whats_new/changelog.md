@@ -1,13 +1,14 @@
 ---
 title: LBT Portal Updates
 description: A log of changes
-lastUpdated: 2023-10-30
+lastUpdated: 2023-10-31
 ---
 
 
 ## October 2023
+### Open Orders 
+- Added subtotal to [Open Orders](/open-orders) page
 ### Quote updates
-- Added subtotal to Open Orders page
 - Enabled editing of quotes.
 - Enabled deletion of quotes.
 - Enabled saving quotes as orders.
