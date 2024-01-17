@@ -31,6 +31,10 @@ export default defineConfig({
 							label: '🛒 Shopping',
 							link: '/guides/shopping',
 							badge: 'New',
+						},						{
+							label: '🖨 Web Orders',
+							link: '/guides/web_orders',
+							badge: 'New',
 						},
 					],
 				},
